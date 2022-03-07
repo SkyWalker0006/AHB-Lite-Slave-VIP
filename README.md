@@ -60,7 +60,7 @@ The test is responsible for:
 - [x] Mentor Questa 2021.3
 - [x] Synopsys VCS 2020.03
 
-## Supported Tests
+## Tests Included
 - [x] Single Burst
 - [x] Increment Burst of Undefined Length
 - [x] INCR & WRAP Tests (4,8,16 Beats)
