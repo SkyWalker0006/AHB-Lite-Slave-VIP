@@ -65,7 +65,7 @@ The test is responsible for:
 - [x] Increment Burst of Undefined Length
 - [x] INCR & WRAP Tests (4,8,16 Beats)
 
-## How to run tests
+## How to run a test
 
 1. Change contraints in the `transaction.sv` file according to the test you want to run.
 2. Comment/uncomment the tests to be run in the `environment.sv` file.
