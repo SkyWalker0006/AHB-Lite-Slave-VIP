@@ -103,7 +103,10 @@ class generator;
          if( !trans.randomize() ) 
           $fatal("Gen:: trans randomization failed");
          $cast(trans.hburst,1);
-         $cast(trans.htrans ,3);
+         if(j==0)
+           $cast(trans.htrans ,2);
+         else
+           $cast(trans.htrans ,3);
          $cast(trans.hwrite,0); 
          trans.haddr = temp_array[0]; 
          $cast(trans.hsize , size);
